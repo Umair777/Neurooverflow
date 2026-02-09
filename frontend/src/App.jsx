@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import PostView from "./pages/PostView";
 
 function App() {
   const [questions, setQuestions] = useState([]);
@@ -10,20 +12,46 @@ function App() {
   }, []);
 
   return (
-    <div style={{ padding: "20px" }}>
-      <h1>Community GPT</h1>
-
-      {questions.map(q => (
-        <div key={q.id} style={{ marginBottom: "12px" }}>
-          <strong>{q.title}</strong>
-          <div>Answers: {q.answers}</div>
-        </div>
-      ))}
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route
+          path="/"
+          element={<PostView questions={questions} />}
+        />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
 export default App;
+
+
+// import { useEffect, useState } from "react";
+
+// function App() {
+//   const [questions, setQuestions] = useState([]);
+
+//   useEffect(() => {
+//     fetch("http://localhost:8000/api/questions")
+//       .then(res => res.json())
+//       .then(data => setQuestions(data));
+//   }, []);
+
+//   return (
+//     <div style={{ padding: "20px" }}>
+//       <h1>Community GPT</h1>
+
+//       {questions.map(q => (
+//         <div key={q.id} style={{ marginBottom: "12px" }}>
+//           <strong>{q.title}</strong>
+//           <div>Answers: {q.answers}</div>
+//         </div>
+//       ))}
+//     </div>
+//   );
+// }
+
+// export default App;
 
 
 // import { useState } from 'react'
