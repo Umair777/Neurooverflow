@@ -12,14 +12,18 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route
-          path="/"
-          element={<PostView questions={questions} />}
-        />
-      </Routes>
-    </BrowserRouter>
+    <>
+      <div className="min-h-screen bg-black text-white">
+        <BrowserRouter>
+          <Routes>
+            <Route
+              path="/"
+              element={<PostView questions={questions} />}
+            />
+          </Routes>
+        </BrowserRouter>
+      </div>
+    </>
   );
 }
 

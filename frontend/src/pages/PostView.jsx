@@ -130,10 +130,10 @@ export default function PostView({ questions }) {
 							style={{
 								boxShadow: "2px 1px 5px #00000026"
 							}}>
-							<div className="flex justify-between items-center self-stretch py-[5px] px-2.5 rounded-[5px] border-2 border-solid border-[#EAEAEA]">
+							{/* <div className="flex justify-between items-center self-stretch py-[5px] px-2.5 rounded-[5px] border-2 border-solid border-[#EAEAEA]">
 								<div className="flex flex-col shrink-0 items-start pb-[1px]">
 									<span className="text-[#808080] text-xs" >
-										{"Choose categories"}
+										{"Choose categorie"}
 									</span>
 								</div>
 								<img
@@ -145,12 +145,18 @@ export default function PostView({ questions }) {
 								<span className="text-[#808080] text-xs" >
 									{"Type catching attention title"}
 								</span>
-							</div>
-							<div className="flex flex-col items-start self-stretch pt-2.5 pb-[321px] pl-2.5 rounded-[5px] border-2 border-solid border-[#EAEAEA]">
+							</div> */}
+							
+							{/* <div className="flex flex-col items-start self-stretch pt-2.5 pb-[321px] pl-2.5 rounded-[5px] border-2 border-solid border-[#EAEAEA]">
 								<span className="text-[#808080] text-xs" >
 									{"Type your question"}
 								</span>
-							</div>
+							</div> */}
+							<textarea
+  placeholder="Type your question"
+  className="self-stretch min-h-[321px] pt-2.5 pl-2.5 rounded-[5px] border-2 border-[#EAEAEA] text-xs text-[#808080] resize-none outline-none focus:border-[#EAEAEA]"
+/>
+
 							<div className="flex justify-between items-center self-stretch">
 								<button className="flex shrink-0 items-center bg-[#1682FD] text-left py-2 px-5 gap-3 rounded-[5px] border-0"
 									onClick={()=>alert("Pressed!")}>
