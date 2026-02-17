@@ -1,16 +1,17 @@
 import React from "react";
 export default function AnswerView() {
 	return (
+		
 		<div className="flex flex-col bg-white">
 			<div className="self-stretch bg-neutral-50">
 				<div className="flex items-center self-stretch bg-white py-[17px] px-[50px] border border-solid border-[#EAEAEA]">
 					<div className="flex shrink-0 items-center mr-[199px] gap-[15px]">
 						<img
-							src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/655dwic2_expires_30_days.png"} 
+							src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/oowi6ygh_expires_30_days.png"} 
 							className="w-[25px] h-[29px] object-fill"
 						/>
 						<span className="text-black text-base" >
-							{"alemhelp"}
+							{"Neurooverflow"}
 						</span>
 					</div>
 					<span className="text-[#808080] text-lg font-bold" >
@@ -21,7 +22,7 @@ export default function AnswerView() {
 					<button className="flex shrink-0 items-center bg-[#F48023] text-left py-3 px-5 mr-[30px] gap-3 rounded-[5px] border-0"
 						onClick={()=>alert("Pressed!")}>
 						<img
-							src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/bbfp5v8f_expires_30_days.png"} 
+							src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/hpcgx3a2_expires_30_days.png"} 
 							className="w-[13px] h-[13px] rounded-[5px] object-fill"
 						/>
 						<span className="text-white text-xs font-bold" >
@@ -29,11 +30,11 @@ export default function AnswerView() {
 						</span>
 					</button>
 					<img
-						src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/do2lhaw8_expires_30_days.png"} 
+						src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/5t1t22se_expires_30_days.png"} 
 						className="w-6 h-[31px] mr-[30px] object-fill"
 					/>
 					<div className="flex shrink-0 items-center gap-3.5">
-						<div className="flex flex-col shrink-0 items-start bg-[url('https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/54ra3ygm_expires_30_days.png')] bg-cover bg-center pb-[35px] pl-[34px]">
+						<div className="flex flex-col shrink-0 items-start bg-[url('https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/dq2xxgtg_expires_30_days.png')] bg-cover bg-center pb-[35px] pl-[34px]">
 							<div className="flex flex-col items-start bg-[#F48023] py-[3px] px-[5px] rounded-[10px] border border-solid border-white">
 								<span className="text-white text-[10px]" >
 									{"0"}
@@ -41,16 +42,16 @@ export default function AnswerView() {
 							</div>
 						</div>
 						<img
-							src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/e5rgstu7_expires_30_days.png"} 
+							src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/7pmvwpyh_expires_30_days.png"} 
 							className="w-1.5 h-1.5 object-fill"
 						/>
 					</div>
 				</div>
-				<div className="flex items-center self-stretch mr-[81px] gap-[9px]">
+				<div className="flex items-start self-stretch mr-[81px] gap-[9px]">
 					<div className="flex flex-col shrink-0 items-start bg-white pt-10">
 						<div className="flex items-center bg-white py-[11px] mb-[30px]">
 							<img
-								src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/zdw0c53d_expires_30_days.png"} 
+								src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/9it4gci1_expires_30_days.png"} 
 								className="w-[18px] h-[18px] ml-[50px] mr-3 object-fill"
 							/>
 							<span className="text-black text-[13px] mr-[188px]" >
@@ -63,7 +64,7 @@ export default function AnswerView() {
 							</span>
 							<div className="flex items-center bg-white py-[11px]">
 								<img
-									src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/j59kr5f3_expires_30_days.png"} 
+									src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/m613pl7s_expires_30_days.png"} 
 									className="w-[18px] h-[18px] ml-[50px] mr-3 object-fill"
 								/>
 								<span className="text-black text-[13px] mr-[168px]" >
@@ -72,7 +73,7 @@ export default function AnswerView() {
 							</div>
 							<div className="flex items-center bg-white py-[11px]">
 								<img
-									src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/ckq6yar5_expires_30_days.png"} 
+									src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/pu795sxy_expires_30_days.png"} 
 									className="w-[18px] h-[18px] ml-[50px] mr-3 object-fill"
 								/>
 								<span className="text-black text-[13px] mr-[201px]" >
@@ -81,7 +82,7 @@ export default function AnswerView() {
 							</div>
 							<div className="flex items-center bg-white py-[11px]">
 								<img
-									src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/2d6xgj92_expires_30_days.png"} 
+									src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/qhj52ecl_expires_30_days.png"} 
 									className="w-[18px] h-[18px] ml-[50px] mr-3 object-fill"
 								/>
 								<span className="text-black text-[13px] mr-[181px]" >
@@ -89,7 +90,7 @@ export default function AnswerView() {
 								</span>
 							</div>
 						</div>
-						<div className="flex flex-col items-start mb-[1341px] gap-2.5">
+						<div className="flex flex-col items-start gap-2.5">
 							<span className="text-[#808080] text-xs ml-[50px]" >
 								{"PERSONAL NAVIGATOR"}
 							</span>
@@ -97,7 +98,7 @@ export default function AnswerView() {
 								<div className="bg-[#F48023] w-[5px] h-[41px] mr-[45px]">
 								</div>
 								<img
-									src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/zvi5rf87_expires_30_days.png"} 
+									src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/jk4e0ht1_expires_30_days.png"} 
 									className="w-[18px] h-[18px] mr-3 object-fill"
 								/>
 								<span className="text-[#F48023] text-[13px] font-bold mr-[135px]" >
@@ -106,7 +107,7 @@ export default function AnswerView() {
 							</div>
 							<div className="flex items-center bg-white py-[11px]">
 								<img
-									src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/skrxk8gu_expires_30_days.png"} 
+									src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/h150yotj_expires_30_days.png"} 
 									className="w-[18px] h-[18px] ml-[50px] mr-3 object-fill"
 								/>
 								<span className="text-black text-[13px] mr-[145px]" >
@@ -115,7 +116,7 @@ export default function AnswerView() {
 							</div>
 							<div className="flex items-center bg-white py-[11px]">
 								<img
-									src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/jqwbx0vc_expires_30_days.png"} 
+									src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/qw08uwcb_expires_30_days.png"} 
 									className="w-[18px] h-[18px] ml-[50px] mr-3 object-fill"
 								/>
 								<span className="text-black text-[13px] mr-[117px]" >
@@ -132,7 +133,7 @@ export default function AnswerView() {
 								}}>
 								<div className="flex items-center self-stretch ml-10">
 									<img
-										src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/ees0yxsv_expires_30_days.png"} 
+										src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/4rhb9pqa_expires_30_days.png"} 
 										className="w-10 h-10 mr-[15px] object-fill"
 									/>
 									<div className="flex flex-col shrink-0 items-start gap-[5px]">
@@ -146,7 +147,7 @@ export default function AnswerView() {
 									<div className="flex-1 self-stretch">
 									</div>
 									<img
-										src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/c1dai39e_expires_30_days.png"} 
+										src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/a2lww5bx_expires_30_days.png"} 
 										className="w-6 h-6 object-fill"
 									/>
 								</div>
@@ -188,22 +189,23 @@ export default function AnswerView() {
 											</span>
 										</button>
 									</div>
-									<button className="flex shrink-0 items-center bg-[#1682FD] text-left py-2 px-5 gap-3 rounded-[5px] border-0"
-										onClick={()=>alert("Pressed!")}>
-										<img
-											src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/ha5h7kdy_expires_30_days.png"} 
-											className="w-[13px] h-[13px] rounded-[5px] object-fill"
-										/>
-																		<span className="text-white text-xs font-bold" >
-																			{"Vote"}
-																		</span>
-																	</button>
+																		<button className="flex shrink-0 items-center bg-[#1682FD] text-left py-2 px-5 gap-3 rounded-[5px] border-0"
+																			onClick={()=>alert("Pressed!")}>
+																			<img
+																				src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/zu5mx4iv_expires_30_days.png"} 
+																				className="w-[13px] h-[13px] rounded-[5px] object-fill"
+																			/>
+																			<span className="text-white text-xs font-bold" >
+																				{"Vote"}
+																			</span>
+																		</button>
+																	</div>
 																</div>
-															</div>
 															</div>
 														</div>
 													</div>
 												</div>
 											</div>
 										);
-									};
+									}
+
