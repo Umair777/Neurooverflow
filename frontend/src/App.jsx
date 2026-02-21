@@ -5,13 +5,13 @@ import AnswerView from "./pages/AnswerView";
 import PostQuestion from "./pages/postQuestion";
 
 function App() {
-  const [questions, setQuestions] = useState([]);
+  const [question, setQuestion] = useState([]);
 
-  useEffect(() => {
-    fetch("http://localhost:8000/api/questions")
-      .then(res => res.json())
-      .then(data => setQuestions(data));
-  }, []);
+  // useEffect(() => {
+  //   fetch("http://localhost:8000/api/questions")
+  //     .then(res => res.json())
+  //     .then(data => setQuestions(data));
+  // }, []);
 
   return (
     <>
@@ -20,16 +20,23 @@ function App() {
           <Routes>
             <Route
               path="/"
-              element={<PostQuestion />}
+              element={
+              <
+                PostQuestion
+                question={question}
+                setQuestion={setQuestion}
+                />}
             />
             <Route
               path="/answer/"
-              element={<AnswerView />}
+              element={<AnswerView question = {question}/>}
             />
           </Routes>
         </BrowserRouter>
       </div>
+      
     </>
+    
   );
 }
 

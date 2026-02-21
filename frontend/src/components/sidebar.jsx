@@ -48,14 +48,14 @@ export default function Sidebar() {
 							<span className="text-[#808080] text-xs ml-[50px]" >
 								{"PERSONAL NAVIGATOR"}
 							</span>
-							<div className="flex items-center bg-[#FCF4EC]">
-								<div className="bg-[#F48023] w-[5px] h-[41px] mr-[45px]">
+							<div className="flex items-center bg-blue]">
+								<div className="bg-[#00a6ff] w-[5px] h-[41px] mr-[45px]">
 								</div>
 								<img
 									src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/81hpilkl_expires_30_days.png"} 
-									className="w-[18px] h-[18px] mr-3 object-fill"
+									className="w-[18px] h-[18px] mr-3 invert sepia saturate-[5000%] hue-rotate-[200deg] " 
 								/>
-								<span className="text-[#F48023] text-[13px] font-bold mr-[135px]" >
+								<span className="text-[#00a6ff] text-[13px] font-bold mr-[135px]" >
 									{"Your questions"}
 								</span>
 							</div>

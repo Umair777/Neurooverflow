@@ -4,11 +4,14 @@ import Layout from "../components/layout";
 import Question from "../components/question";
 import Suggestions from "../components/suggestions";
 
-export default function PostQuestion() {
+export default function PostQuestion({ question, setQuestion }) {
 	const navigate = useNavigate();
 	return (
 		 <Layout title="New Question">
-      <Question />
+      <Question 
+	  Question={question}
+	  setQuestion={setQuestion}
+	   />
       <Suggestions />
     </Layout>
 	)

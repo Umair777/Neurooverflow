@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 
-export default function Question() {
+export default function Question( {Question, setQuestion} ) {
     const navigate = useNavigate();
   return (
     <div className="flex-1 p-0">
@@ -14,8 +14,10 @@ export default function Question() {
 							
 							
 							<textarea
+							value={Question}
+							onChange={(e) => setQuestion(e.target.value)}
 							placeholder="Type your question"
-							className="w-full min-h-[321px] p-3 bg-white border border-gray-300 rounded-md text-black placeholder:text-gray-400 outline-none focus:ring-2 focus:ring-orange-400 focus:border-orange-400"
+							className="w-full min-h-[321px] p-3 bg-white border border-gray-300 rounded-md text-black placeholder:text-gray-400 outline-none focus:ring-2 focus:ring-orange-400 focus:ring-[#00a6ff]"
 							/>
             <div className="flex justify-between items-center self-stretch">
 								<button className="flex shrink-0 items-center bg-[#1682FD] text-left py-2 px-5 gap-3 rounded-[5px] border-0"
@@ -37,7 +39,7 @@ export default function Question() {
 										</span>
 									</button>
 
-                    <button className="flex shrink-0 items-center bg-[#F48023] text-left py-2 px-5 gap-3 rounded-[5px] border-0"
+                    <button className="flex shrink-0 items-center bg-[#00a6ff] text-left py-2 px-5 gap-3 rounded-[5px] border-0"
                         onClick={()=>navigate("/answer")}>
                         <img
                             src={"https://storage.googleapis.com/tagjs-prod.appspot.com/v1/4j9QAmMJn9/sd7bdvbx_expires_30_days.png"} 
