@@ -6,10 +6,10 @@ import CodeBlock from "./answercard/codeBlock";
 export default function Answer( {question}) {
     return (
         
-        <div className="flex flex-col bg-white">
-            <div className="self-stretch bg-white ">
+        // <div className="flex flex-col bg-white">
+        //     <div className="self-stretch bg-white ">
                 
-                <div className="flex items-start self-stretch mr-[82px] gap-[9px] ">
+                <div className="flex items-start self-stretch mr-[321px] gap-[9px] ">
                     
                     <div className="flex flex-1 items-start gap-[45px] "> 
                         <div className="flex flex-1 flex-col items-center gap-5 bg-black">
@@ -37,8 +37,8 @@ export default function Answer( {question}) {
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+        //     </div>
+        // </div>
     
 );
 }
